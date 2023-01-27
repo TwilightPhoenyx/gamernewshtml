@@ -39,16 +39,14 @@ h1 {
 h2 {
     font-size: 1.8rem;
     margin-top: 2rem;
-    font-size: 1.5rem;
 }
 
 nav {
     font-family: sans-serif;
-    margin: 1.2rem;
+    /*margin: 1.2rem;*/
     margin-left: 2rem;
     border-radius: 0.5rem;
     font-size: 0.8rem;
-    /*background-color: rgb(31, 31, 31);*/
 }
 
 nav li {
@@ -116,11 +114,19 @@ article > h2 {
     font-size: 1.05rem;
 }
 
-.container {
+.container-cabecera {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.container-section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: center;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .image {
@@ -129,17 +135,18 @@ article > h2 {
 }
 
 .articulo-foto {
-    max-width: 50rem;
-    min-width: 15rem;
+    max-width: 40rem;
+    min-width: 20rem;
+    max-height: 40rem;
     flex-grow: 2;
 }
 
 .articulo-nofoto {
-    max-width: 20rem;
-    min-width: 15rem;
-    max-height: 15rem;
+    max-width: 27%;
+    min-width: 10rem;
+    height: fit-content;
+    align-self: center;
     flex-grow: 1;
-    
 }
 
 
