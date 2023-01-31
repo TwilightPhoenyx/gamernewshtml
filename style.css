@@ -129,6 +129,7 @@ article > h2 {
     margin-right: 2%;
 }
 
+
 .image {
     max-width: 100%;
     min-width: 15rem;
@@ -148,6 +149,16 @@ article > h2 {
     align-self: center;
     flex-grow: 1;
 }
+
+.controlSesion {
+    display: flex;
+    flex-flow: column;
+}
+
+
+
+
+
 
 
 

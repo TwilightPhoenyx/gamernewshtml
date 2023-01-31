@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamer News Formulario de Registro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container-cabecera">
+    <header>
+        <a href="index.html"><h1>Gamer News</h1></a>
+    </header>
+    <nav>
+        <ul>
+            <a href="index.html"><li>Portada</li></a>
+            <a href="seccion_nuevos_lanzamientos.html"><li>Nuevos Lanzamientos</li></a>
+            <a href="seccion_reviews.html"><li>Reviews</li></a>
+        </ul>
+    </nav>
+    </div>
+    <main>
+        <h2>Registro</h2>
+        <div class="container-form">
+        <form>
+            <label>Nombre de Usuario:
+                <input type="text" name="UserName">
+            </label>
+
+            <label>Correo Electrónico: 
+                <input type="email" name="Email">
+            </label>
+            
+            <label>Contraseña: 
+                <input type="password" name="Password">
+            </label>
+            
+            <label>Confirmar Contraseña: 
+                <input type="password" name="Password">
+            </label>
+
+            <label>Autorizo que se me manden e-mails
+                <input type="checkbox" name="consentimiento">
+            </label>
+
+            <fieldset>
+                <legend>Configuración de cookies</legend>
+                <label>
+                    <input type="radio" name="cookies" value="todas">
+                    Acepto todas las cookies
+                </label>
+                <label>
+                    <input type="radio" name="cookies" value="necesarias">
+                    Acepto solo cookies recomendadas
+                </label>
+                <label>
+                    <input type="radio" name="cookies" value="ninguna">
+                    Non acepto ninguna
+                </label>
+            </fieldset>
+            
+            <input type="submit" name="confirm" value="Regístrame">
+        </form>
+        </div>
+    </main>
+</body>

@@ -10,23 +10,29 @@
 <body>
     <h1>Forms</h1>
     <form>
-        <label for="nombreusuario">Nombre Usuario</label>
-        <input type="text" name="nombreusuario">
+        <label>Nombre Usuario
+            <input type="text" name="nombreusuario">
+        </label>
+        
+        <label>Contraseña
+            <input type="password" name="contrasena">
+        </label>
 
-        <label for="conrasena">Contraseña</label>
-        <input type="password" name="contrasena">
+        <label>Selecciona tipo menu
+            <input type="checkbox" name="menu" value="plato1">
+            <input type="checkbox" name="menu" value="plato2">
+            <input type="checkbox" name="menu" value="plato3">
+        </label>
 
-        <label for="menu">Selecciona tipo menu</label>
-        <input type="checkbox" name="menu" value="plato1">
-        <input type="checkbox" name="menu" value="plato2">
-        <input type="checkbox" name="menu" value="plato3">
-
-        <label for="vegano">Menu Tipo Radio</label>
-        <label for="veganoSi">Vegano</label>
-        <input type="radio" name="vegano" value="si" id="veganoSi">
-        <label for="veganoNo">No es vegano</label>
-        <input type="radio" name="vegano" value="no" id="veganoNo">
-
+        <label>Menu Tipo Radio
+            <label>Vegano
+                <input type="radio" name="vegano" value="si" id="veganoSi">
+            </label>
+            <label>No es vegano
+                <input type="radio" name="vegano" value="no" id="veganoNo">
+            </label>
+        </label>
+        
         <input type="submit" value="SEND!">
         <button>No cliques</button>
     </form>
