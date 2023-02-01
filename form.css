@@ -8,11 +8,13 @@
 form {
     display: flex;
     flex-direction: column;
+    background-color: rgb(31, 31, 31);
     max-width: 50%;
     border: solid;
     border-top-right-radius: 3rem;
     border-bottom-left-radius: 3rem;
     padding: 2rem;
+    padding-bottom: 0.5rem;
 }
 
 label {
@@ -32,8 +34,6 @@ input[type="submit"] {
     margin: 2em;
     align-self: center;
 }
-
-
 
 fieldset {
     margin: 1em;
