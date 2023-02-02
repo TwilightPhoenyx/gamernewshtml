@@ -1,7 +1,7 @@
 body {
     color:whitesmoke;
-    /*background-image: url(consolebackground.jpg);*/
-    background-color:rgba(31, 31, 31);
+    background-image: url(../imagenes/consolebackground.jpg);
+    /*background-color:rgba(31, 31, 31);*/
 }
 
 footer {
@@ -40,7 +40,11 @@ h1 {
 h2 {
     font-size: 1.8rem;
     margin-top: 2rem;
-}
+    background-color: goldenrod;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 0.5rem;
+} 
 
 nav {
     font-family: sans-serif;
@@ -66,7 +70,7 @@ nav li {
     text-transform: uppercase;
 }
 
-nav li:hover , .control-sesion > a:hover {
+nav li:hover , .control-sesion > a:hover {  /*Efecto resaltado boton*/
     background-color:goldenrod;
     color:rgb(31, 31, 31);
 }
@@ -83,13 +87,16 @@ article {
     padding: 1rem;
     background-color: rgb(19, 19, 19);
     margin: 1rem;
-    /*max-width: 50rem;*/
     max-height: 100rem;
 }
 
-article > h2 {
+article > h2 {      /*modificar estilo de h2 cuanod es titular de articulo*/
     color:goldenrod;
+    background-color: transparent;
+    
     margin-top: 0.1rem;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .notas {
@@ -115,7 +122,7 @@ article > h2 {
     font-size: 1.05rem;
 }
 
-.container-cabecera {
+.container-cabecera {       
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -136,14 +143,14 @@ article > h2 {
     min-width: 15rem;
 }
 
-.articulo-foto {
+.articulo-foto {            /*estilo para articulos importantes con foto*/
     max-width: 40rem;
     min-width: 20rem;
     max-height: 40rem;
     flex-grow: 2;
 }
 
-.articulo-nofoto {
+.articulo-nofoto {          /*estilo parabarticulos no resaltados sin foto*/
     max-width: 27%;
     min-width: 10rem;
     height: fit-content;
@@ -151,7 +158,7 @@ article > h2 {
     flex-grow: 1;
 }
 
-.menu-cabecera {                    /*aplicar flex a todos los elementos del menu*/
+.menu-cabecera {               /*colocar en linea todos los elementos de la cabecera*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -159,7 +166,7 @@ article > h2 {
     width: 100%;
 }
 
-.menu-cabecera > img {
+.menu-cabecera > img {         /*ajustar icono de sesion (no funcional)*/
     flex-grow: 1;
     width: 3.2rem;
     height: 3.2rem;
@@ -172,14 +179,14 @@ article > h2 {
     margin-right: 0.5rem;
 }
 
-.control-sesion {       /*estilo de los enlaces a formularios*/
+.control-sesion {       /*poner en columna los enlaces "login" y "registro" contenidos*/
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     /*margin-right: 1rem;*/
 }
 
-.control-sesion > a {       /*estilo de los enlaces a formularios*/
+.control-sesion > a {       /*estilo de los enlaces "login" y "registro"*/
     border: solid;
     display: flex;
     flex-direction: column;

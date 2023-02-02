@@ -36,11 +36,11 @@
         <div class="container-form">
         <form>
             <label>Nombre de Usuario:
-                <input type="text" name="UserName">
+                <input type="text" name="UserName" placeholder="Username">
             </label>
 
             <label>Correo Electrónico: 
-                <input type="email" name="Email">
+                <input type="email" name="Email" placeholder="ejemplo@gmail.es">
             </label>
             
             <label>Contraseña: 
@@ -51,28 +51,28 @@
                 <input type="password" name="Password">
             </label>
 
-            <label>Autorizo que se me manden e-mails
+            <label class="label-resaltada">Autorizo que se me manden e-mails
                 <input type="checkbox" name="consentimiento">
             </label>
 
             <fieldset>
                 <legend>Configuración de cookies</legend>
-                <label>
+                <label class="label-resaltada">
                     <input type="radio" name="cookies" value="todas">
                     Acepto todas las cookies
                 </label>
-                <label>
+                <label class="label-resaltada">
                     <input type="radio" name="cookies" value="necesarias">
                     Acepto solo cookies recomendadas
                 </label>
-                <label>
+                <label class="label-resaltada">
                     <input type="radio" name="cookies" value="ninguna">
-                    Non acepto ninguna
+                    No acepto ninguna cookie
                 </label>
             </fieldset>
 
             <label for="opinion">Dinos tu opinión sobre nuetra web (opcional).</label>
-            <textarea name="opinion" id="opinion" cols="30" rows="10" maxlength="100"></textarea>
+            <textarea name="opinion" id="opinion" cols="30" rows="10" maxlength="100" placeholder="Escribe aqui tu texto."></textarea>
             
 
             <input type="submit" name="confirm" value="Regístrame">

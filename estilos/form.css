@@ -11,10 +11,16 @@ form {
     max-width: 50%;
     background-color: rgb(19, 19, 19);
     border: solid;
+    border-color: goldenrod;
     border-top-right-radius: 3rem;
     border-bottom-left-radius: 3rem;
     padding: 2rem;
     padding-bottom: 0.5rem;
+}
+
+legend, label {
+    font-weight: bold;
+    color: goldenrod;
 }
 
 label {
@@ -39,4 +45,10 @@ fieldset {
     margin: 1em;
     margin-top: 3rem;
     padding-bottom: 2rem;
+}
+
+.label-resaltada {
+    font-weight: lighter;
+    font-style: italic;
+    color: whitesmoke;
 }
