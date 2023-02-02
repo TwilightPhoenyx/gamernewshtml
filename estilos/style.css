@@ -169,7 +169,7 @@ article > h2 {
     border: solid;
     border-radius: 3rem;
     margin-top: 0.2rem;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
 }
 
 .control-sesion {       /*estilo de los enlaces a formularios*/
