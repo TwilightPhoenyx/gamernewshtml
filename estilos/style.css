@@ -73,6 +73,7 @@ nav li {
 nav li:hover , .control-sesion > a:hover {  /*Efecto resaltado boton*/
     background-color:goldenrod;
     color:rgb(31, 31, 31);
+    border-color: transparent;
 }
 
 h3 {
@@ -93,7 +94,7 @@ article {
 article > h2 {      /*modificar estilo de h2 cuanod es titular de articulo*/
     color:goldenrod;
     background-color: transparent;
-    
+
     margin-top: 0.1rem;
     margin-left: 0;
     margin-right: 0;
@@ -166,19 +167,6 @@ article > h2 {      /*modificar estilo de h2 cuanod es titular de articulo*/
     width: 100%;
 }
 
-.menu-cabecera > img {         /*ajustar icono de sesion (no funcional)*/
-    flex-grow: 1;
-    width: 3.2rem;
-    height: 3.2rem;
-    max-width: 3.2rem;
-    max-height: 3.2rem;
-    padding: 0.5rem;
-    border: solid;
-    border-radius: 3rem;
-    margin-top: 0.2rem;
-    margin-right: 0.5rem;
-}
-
 .control-sesion {       /*poner en columna los enlaces "login" y "registro" contenidos*/
     flex-grow: 1;
     display: flex;
@@ -204,7 +192,19 @@ article > h2 {      /*modificar estilo de h2 cuanod es titular de articulo*/
     max-width: 7rem;
 }
 
-
+.menu-cabecera > img {         /*icono de sesion (no funcional)*/
+    flex-grow: 1;
+    width: 2.8rem;
+    height: 2.8rem;
+    max-width: 2.8rem;
+    max-height: 2.8rem;
+    padding: 0.5rem;
+    border: solid;
+    border-width: 0.2rem;
+    border-radius: 4rem;
+    margin-top: 0.3rem;
+    margin-right: 0.5rem;
+}
 
 
 

@@ -16,6 +16,7 @@ form {
     border-bottom-left-radius: 3rem;
     padding: 2rem;
     padding-bottom: 0.5rem;
+    font-size: 1.1rem;
 }
 
 legend, label {
@@ -51,4 +52,5 @@ fieldset {
     font-weight: lighter;
     font-style: italic;
     color: whitesmoke;
+    font-size: 1rem;
 }
