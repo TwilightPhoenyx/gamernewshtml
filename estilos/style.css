@@ -55,6 +55,10 @@ nav {
     flex-grow: 6;
 }
 
+nav ul {
+    list-style-type: none;
+}
+
 nav li {
     border: solid;
     border-top-right-radius: 1rem;
@@ -91,7 +95,7 @@ article {
     max-height: 100rem;
 }
 
-article > h2 {      /*modificar estilo de h2 cuanod es titular de articulo*/
+article > h2 {      /*modificar estilo de h2 cuando es titular de articulo*/
     color:goldenrod;
     background-color: transparent;
 
@@ -105,13 +109,11 @@ article > h2 {      /*modificar estilo de h2 cuanod es titular de articulo*/
     font-size: 0.8rem;
 }
 
-/*article > div*/
 .fuente {
     font-style: italic;
     font-size: 0.8rem;
 }
 
-/*article > div > p*/
 .resumen {
     font-size: 1rem;
     font-style: normal;
