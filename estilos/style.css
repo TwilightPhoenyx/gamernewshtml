@@ -104,7 +104,7 @@ article > h2 {      /*modificar estilo de h2 cuando es titular de articulo*/
     margin-right: 0;
 }
 
-.notas {
+.notas {            /*notaciones pequeñas como pies de foto, fechas y autores*/
     font-style: italic;
     font-size: 0.8rem;
 }
@@ -125,13 +125,13 @@ article > h2 {      /*modificar estilo de h2 cuando es titular de articulo*/
     font-size: 1.05rem;
 }
 
-.container-cabecera {       
+.container-cabecera {       /*flex para organizar elemenots de la cabecera*/
     display: flex;
     flex-direction: column;
     justify-content: start;
 }
 
-.container-section {
+.container-section {        /*flex para organizar los raticulos dentro de las secciones*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -146,14 +146,14 @@ article > h2 {      /*modificar estilo de h2 cuando es titular de articulo*/
     min-width: 15rem;
 }
 
-.articulo-foto {            /*estilo para articulos importantes con foto*/
+.articulo-foto {            /*estilo para articulos con foto*/
     max-width: 40rem;
     min-width: 20rem;
     max-height: 40rem;
     flex-grow: 2;
 }
 
-.articulo-nofoto {          /*estilo parabarticulos no resaltados sin foto*/
+.articulo-nofoto {          /*estilo para articulos sin foto*/
     max-width: 27%;
     min-width: 10rem;
     height: fit-content;
@@ -161,7 +161,7 @@ article > h2 {      /*modificar estilo de h2 cuando es titular de articulo*/
     flex-grow: 1;
 }
 
-.menu-cabecera {               /*colocar en linea todos los elementos de la cabecera*/
+.menu-cabecera {               /*colocar en linea todos los elementos bajo el Titulo de página*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
